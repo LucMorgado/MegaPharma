@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@454&display=swap);
+/**
+ * Metropolis
+ * 
+ */
+
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 454;
+  font-display: swap;
+  src: url(/fonts/Metropolis-Regular.otf?67a1988d7b65b0aaa16da42bcb97acc3);
+}
+body {
+    font-family: 'Metropolis';
+    text-transform: uppercase;
+}
