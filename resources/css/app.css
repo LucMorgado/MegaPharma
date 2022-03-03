@@ -2,7 +2,24 @@
 
 @import url('fonts/Metropolis.css');
 
+
+:root {
+  --bs-primary: #283351;
+  --bs-secondary: #f0dcbe;
+  --bs-primary-rgb:  40,51,81;
+}
+
+
 body {
     font-family: 'Metropolis';
     text-transform: uppercase;
 }
+
+ul, li, ol{ list-style: none; }
+
+
+
+.menu{  }
+
+.li { 
+    cursor: pointer; }
