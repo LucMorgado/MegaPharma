@@ -18,7 +18,7 @@
             </select>
         </div>
         <div class="text-center">
-                <button disabled class="btn btn-primary color-5 bg-1" id="selBt" onclick="encontrar();">Encontrar</button>
+                <button disabled class="btn btn-highlight" id="selBt" onclick="encontrar();">Encontrar</button>
         </div>
     </div>
 	</form>

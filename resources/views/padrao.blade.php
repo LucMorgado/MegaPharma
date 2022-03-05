@@ -19,7 +19,13 @@
 
         @include('elementos.busca')
 
+        @include('elementos.farmacias')
 
+        @include('elementos.sobre')
+        @include('elementos.social')
+        @include('elementos.franqueado')
+        @include('elementos.depoimentos')
+        @include('elementos.footer')
 
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     </body>

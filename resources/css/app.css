@@ -9,12 +9,17 @@
 :root {
   --bs-primary: #283351;
   --bs-secondary: #f0dcbe;
+  --bs-highlight: #5a8d96;
   --bs-primary-rgb:  40,51,81;
   --bs-secondary-rgb:  240,220,190;
-  --banner-teste:  url('../image/banner-ex.jpg');
+  --bs-highlight-rgb:  90,141,150;
+  --banner-teste:  url('../images/banner-ex.jpg');
 }
+img{ 
+width: -webkit-fill-available;
+ }
 
-
+a { text-decoration: none; }
 body {
     font-family: 'Metropolis';
     text-transform: uppercase;
@@ -26,7 +31,21 @@ ul, li, ol{ list-style: none; }
 
  color: var(--bs-secondary)!important;
  }
+.btn-primary{ 
+    color: #fff;
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+ }
 
+ .btn-highlight{ 
+    color: #fff;
+    background-color: var(--bs-highlight);
+    border-color: var(--bs-highlight);
+ }
+
+ .text-highlight { color: var(--bs-highlight); }
+
+ 
 
 
 .menu{  }
