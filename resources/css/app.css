@@ -1,3 +1,6 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@454&display=swap');
 
 @import url('fonts/Metropolis.css');
@@ -7,6 +10,8 @@
   --bs-primary: #283351;
   --bs-secondary: #f0dcbe;
   --bs-primary-rgb:  40,51,81;
+  --bs-secondary-rgb:  240,220,190;
+  --banner-teste:  url('../image/banner-ex.jpg');
 }
 
 
@@ -16,6 +21,11 @@ body {
 }
 
 ul, li, ol{ list-style: none; }
+
+.li:hover { 
+
+ color: var(--bs-secondary)!important;
+ }
 
 
 

@@ -1,1 +1,4 @@
 require('./bootstrap');
+require("./funcoes.js");
+
+require('../../node_modules/bootstrap/dist/js/bootstrap.js');
